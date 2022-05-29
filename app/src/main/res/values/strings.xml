@@ -1,24 +1,56 @@
 <resources>
     <string name="app_name">物流管理系统</string>
-    <string name="system_title">物流管理系统v1.0</string>
+    <string name="system_title">物流管理系统v2.0</string>
     <string name="user_icon_description">用户图标</string>
     <string name="password_icon_description">密码图标</string>
     <string name="user_name_input_hint">请输入登录名</string>
     <string name="password_input_hint">请输入密码</string>
     <string name="login_button_text">登录</string>
     <string name="exit_button_text">退出</string>
-    <string name="insider_knows_message_hint">%1$s知道你的信息</string>
-    <string name="insider_default">没有人</string>
 
-    <string name="user_display_icon_description">用户图标</string>
-    <string name="password_display_icon_description">密码图标</string>
-    <string name="time_format_text">当前时间是 yyyy-MM-dd HH:mm</string>
-    <string name="search_engine_text">点我可进入百度搜索</string>
+    <string name="time_format_text">当前时间是</string>
     <string name="user_name_hint">我是%1$s</string>
     <string name="password_hint">我的密码是%1$s</string>
-    <string name="insider_name_hint">某人？</string>
-    <string name="insider_knows_hint">知道了</string>
-    <string name="back_button_text">返回</string>
+    <string name="enter_the_waybill_button_text">录入运单</string>
+    <string name="query_local_waybill_button_text">查询本地运单</string>
+    <string name="query_company_waybill_xml_button_text">查询公司运单Xml</string>
+    <string name="query_company_waybill_json_button_text">查询公司运单Json</string>
+    <string name="switch_user_button_text">切换用户</string>
+
+    <string name="local_waybill_title">本机运单</string>
+    <string name="company_waybill_json_title">公司运单JSON</string>
+    <string name="company_waybill_xml_title">公司运单XML</string>
+    <string name="waybill_list_empty_hint">好像没有任何记录哦~</string>
+    <string name="waybill_position_text">%1$s - %2$s</string>
+    <string name="waybill_goods_name_text">%1$s</string>
+    <string name="waybill_goods_number_text">%1$d 件</string>
+    <string name="waybill_waybill_number_text">NO: %1$s</string>
+    <string name="waybill_consignee_text">收货人：%1$s（%2$s）</string>
+    <string name="waybill_consignee_paid_text">到付 %1$d 元</string>
+    <string name="turn_back_button_text">返回</string>
+    <string name="save_button_text">保存</string>
+
+    <string name="departure_station_text">发站：</string>
+    <string name="departure_station_text_speakable">发站</string>
+    <string name="departure_station_edit_text">%1$s</string>
+    <string name="arrival_station_text">到站：</string>
+    <string name="arrival_station_edit_text_speakable">到站</string>
+    <string name="consignor_text">发货人：</string>
+    <string name="consignor_edit_text_speakable">发货人</string>
+    <string name="consignor_phone_number_text">发货电话：</string>
+    <string name="consignor_phone_number_edit_text_speakable">发货电话</string>
+    <string name="consignee_text">收货人：</string>
+    <string name="consignee_edit_text_speakable">收货人</string>
+    <string name="consignee_phone_number_text">收货电话：</string>
+    <string name="consignee_phone_number_edit_text_speakable">收货电话</string>
+    <string name="goods_name_text">货物名称：</string>
+    <string name="goods_name_edit_text_speakable">货物名称</string>
+    <string name="goods_number_text">件数：</string>
+    <string name="goods_number_edit_text_speakable">件数</string>
+    <string name="consignor_paid_text">已付运费：</string>
+    <string name="consignor_paid_edit_text_speakable">已付运费</string>
+    <string name="consignee_paid_text">到付运费：</string>
+    <string name="consignee_paid_edit_text_speakable">到付运费</string>
 
     <string name="temporary">null</string>
 </resources>

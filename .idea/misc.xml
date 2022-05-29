@@ -3,8 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/code/AndroidStudioProjects/Homework/app/src/main/res/drawable/button_background.xml" value="0.2265" />
+        <entry key="..\:/code/AndroidStudioProjects/Homework/app/src/main/res/layout/activity_company_waybill_xml.xml" value="0.19281744335185977" />
+        <entry key="..\:/code/AndroidStudioProjects/Homework/app/src/main/res/layout/activity_enter_waybill.xml" value="0.20478837109876016" />
+        <entry key="..\:/code/AndroidStudioProjects/Homework/app/src/main/res/layout/activity_login.xml" value="0.20478837109876016" />
+        <entry key="..\:/code/AndroidStudioProjects/Homework/app/src/main/res/layout/activity_user_information.xml" value="0.20478837109876016" />
+        <entry key="..\:/code/AndroidStudioProjects/Homework/app/src/main/res/layout/activity_waybill_display.xml" value="0.20478837109876016" />
+        <entry key="..\:/code/AndroidStudioProjects/Homework/app/src/main/res/layout/layout.xml" value="0.19281744335185977" />
         <entry key="..\:/code/AndroidStudioProjects/Homework/app/src/main/res/layout/login_activity.xml" value="0.18449682683590207" />
         <entry key="..\:/code/AndroidStudioProjects/Homework/app/src/main/res/layout/user_infomation_activity.xml" value="0.18449682683590207" />
+        <entry key="..\:/code/AndroidStudioProjects/Homework/app/src/main/res/layout/user_information_activity.xml" value="0.2" />
+        <entry key="..\:/code/AndroidStudioProjects/Homework/app/src/main/res/layout/user_information_activity_buttons.xml" value="0.20478837109876016" />
+        <entry key="..\:/code/AndroidStudioProjects/Homework/app/src/main/res/layout/waybill_item.xml" value="0.20478837109876016" />
         <entry key="..\:/code/AndroidStudioProjects/Homework01/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.253" />
         <entry key="..\:/code/AndroidStudioProjects/Homework01/app/src/main/res/drawable/app_launcher_background.xml" value="0.253" />
         <entry key="..\:/code/AndroidStudioProjects/Homework01/app/src/main/res/drawable/button.xml" value="0.126" />
@@ -15,7 +25,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
