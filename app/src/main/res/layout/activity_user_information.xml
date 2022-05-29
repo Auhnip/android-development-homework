@@ -107,7 +107,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
             android:format12Hour="yyyy-MM-dd hh:mm:ss a"
-            android:format24Hour="yyyy-MM-dd hh:mm:ss"
+            android:format24Hour="yyyy-MM-dd HH:mm:ss"
             android:gravity="center"
             android:textColor="@color/white"
             android:textSize="18sp"
