@@ -4,11 +4,10 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
-import com.qph.homework.manager.ActivityCollecteor
+import com.qph.homework.manager.ActivityCollector
 import com.qph.homework.manager.UserDatabaseHelper
 import com.qph.homework.utils.ConstantsValue
 import homework.databinding.ActivityLoginBinding
-import kotlinx.coroutines.Dispatchers
 import java.io.Serializable
 
 data class User(val name: String, val password: String, val departureStation: String) : Serializable
@@ -66,10 +65,11 @@ class LoginActivity : BaseActivity() {
                 return@setOnClickListener
             }
             val departureStation = cursor.getString(cursor.getColumnIndex("departure_station"))
+            val userName = cursor.getString(cursor.getColumnIndex("user_name"))
             cursor.close()
 
             // get input message
-            val userInfo = User(userLogin, userPassword, departureStation)
+            val userInfo = User(userName, userPassword, departureStation)
 
             // setting intent
             val intent = Intent(this, UserInformationActivity::class.java)
@@ -87,7 +87,7 @@ class LoginActivity : BaseActivity() {
 
     private fun exitApplication() {
         // exit app
-        ActivityCollecteor.finishAll()
+        ActivityCollector.finishAll()
     }
 
 }

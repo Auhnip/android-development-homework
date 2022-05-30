@@ -1,24 +1,15 @@
 package com.qph.homework.view
 
-import android.content.BroadcastReceiver
-import android.content.Context
 import android.content.Intent
-import android.content.IntentFilter
 import android.os.Bundle
-import android.widget.Toast
-import com.qph.homework.manager.ActivityCollecteor
+import com.qph.homework.manager.ActivityCollector
 import com.qph.homework.utils.ConstantsValue
 import homework.R
 import homework.databinding.ActivityUserInformationBinding
-import java.time.Instant
-import java.time.format.DateTimeFormatter
-import java.util.*
 
 class UserInformationActivity : BaseActivity() {
 
 	private lateinit var binding: ActivityUserInformationBinding
-
-	private lateinit var dateTimeFormatter: DateTimeFormatter
 
 	private lateinit var user: User
 
@@ -67,7 +58,7 @@ class UserInformationActivity : BaseActivity() {
 
 		// set exit button
 		binding.exitButtonUserInfo.setOnClickListener {
-			ActivityCollecteor.finishAll()
+			ActivityCollector.finishAll()
 		}
 	}
 
@@ -76,14 +67,5 @@ class UserInformationActivity : BaseActivity() {
 			user.name.ifEmpty { "佚名" })
 		binding.passwordText.text =
 			String.format(getString(R.string.password_hint), user.password.ifEmpty { "空" })
-	}
-
-	inner class TimeChangeReceiver : BroadcastReceiver() {
-		override fun onReceive(p0: Context?, p1: Intent?) {
-			// set time display
-			binding.timeText.text = dateTimeFormatter.format(Instant.now())
-
-			Toast.makeText(this@UserInformationActivity, "Time changed", Toast.LENGTH_SHORT).show()
-		}
 	}
 }

@@ -3,14 +3,13 @@ package com.qph.homework.manager
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import android.widget.Toast
 import com.qph.homework.utils.ConstantsValue
 
-class UserDatabaseHelper(private val context: Context, name: String, version: Int) :
+class UserDatabaseHelper(context: Context, name: String, version: Int) :
     SQLiteOpenHelper(context, name, null, version) {
 
-    private val user1 = arrayOf("计算机1903", "20194635", "20194635", "15303046547", "韶关")
-    private val user2 = arrayOf("软件2002", "20200000", "20200000", "13200000000", "南充")
+    private val user1 = arrayOf("计算机1903", "邱品华", "20194635", "20194635", "15303046547", "韶关")
+    private val user2 = arrayOf("计算机1903", "张天厚", "20194709", "20194709", "13200000000", "德州")
 
     override fun onCreate(p0: SQLiteDatabase?) {
         p0?.apply {

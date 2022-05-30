@@ -2,7 +2,7 @@ package com.qph.homework.manager
 
 import android.app.Activity
 
-object ActivityCollecteor {
+object ActivityCollector {
     private val activities = ArrayList<Activity>()
 
     fun addActivity(activity: Activity) {

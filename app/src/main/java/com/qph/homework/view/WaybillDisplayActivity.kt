@@ -12,7 +12,7 @@ import homework.databinding.ActivityWaybillDisplayBinding
 
 class WaybillDisplayActivity : BaseActivity() {
 
-    lateinit var binding: ActivityWaybillDisplayBinding
+    private lateinit var binding: ActivityWaybillDisplayBinding
 
     private var type = ConstantsValue.localSource
 

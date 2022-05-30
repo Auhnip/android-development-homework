@@ -1,7 +1,6 @@
 package com.qph.homework.utils
 
 import android.annotation.SuppressLint
-import android.view.View
 import com.qph.homework.Waybill
 import com.qph.homework.manager.UserDatabaseHelper
 import com.qph.homework.view.WaybillDisplayActivity

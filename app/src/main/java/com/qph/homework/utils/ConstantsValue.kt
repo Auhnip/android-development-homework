@@ -1,7 +1,5 @@
 package com.qph.homework.utils
 
-import com.qph.homework.manager.UserDatabaseHelper
-
 object ConstantsValue {
     const val localSource = 1
     const val xmlSource = 2
@@ -16,6 +14,7 @@ object ConstantsValue {
     const val createUserSqliteSentence = "create table User (" +
             "user_id integer primary key autoincrement," +
             "user_department text," +
+            "user_name text," +
             "user_login text," +
             "user_password text," +
             "user_tel text," +
@@ -38,10 +37,11 @@ object ConstantsValue {
     const val insertUserSentence =
         "insert into User (" +
                 "user_department," +
+                "user_name," +
                 "user_login," +
                 "user_password," +
                 "user_tel," +
-                "departure_station) values (?, ?, ?, ?, ?)"
+                "departure_station) values (?, ?, ?, ?, ?, ?)"
 
     const val insertWaybillSentence =
         "insert into Waybill (" +
